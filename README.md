@@ -1,4 +1,6 @@
-# vue-test-posts
+# vue-posts
+
+# Readme WIP
 
 ## Project setup
 ```

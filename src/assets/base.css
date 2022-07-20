@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+}
+
+:root {
+    --gray: #9e9e9e;
+    --green: #388e3c;
+    --vue-green: #42b883;
+    --black: #424242;
+    --blue: #1565c0;
+    --danger: #ef5350;
+    --black-shadow: rgba(66, 66, 66, 0.5);
+    --green-shadow: rgba(66, 184, 131, 0.5);
+}
+
+a.default {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    transition: color 0.2s linear;
+}
+
+.green {
+    color: var(--vue-green);
+}
+
+a.default:hover {
+    color: var(--vue-green);
+    cursor: pointer;
+}
+
