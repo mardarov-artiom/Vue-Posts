@@ -2,7 +2,12 @@
 
 # Readme WIP
 
+## Project is available on Github Pages
+
+### https://mardarov-artiom.github.io/Vue-Posts/
+
 ## Project setup
+
 ```
 npm install
 ```
