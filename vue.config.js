@@ -4,5 +4,5 @@ module.exports = defineConfig({
   transpileDependencies: true,
   outputDir: 'build',
   assetsDir: 'static/',
-  publicPath: '/Vue-Posts/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/Vue-Posts/' : '/',
 });

@@ -1,8 +1,11 @@
 <template>
   <div class="modal-description">
     <span>Custom Modal component.</span>
-    <br />
-    <span>Check source files in git repository ( src/components/ModalComponent.vue )</span>
+    <span>
+      <a href="https://github.com/mardarov-artiom/Vue-Posts/blob/master/src/components/ModalComponent.vue" target="_blank">
+        Check source files in git repository
+      </a>
+    </span>
   </div>
   <div class="examples">
     <div class="one-example">
@@ -151,6 +154,18 @@ $brackets: #FFC66D;
 
 .modal-description {
   margin-bottom: 1rem;
+
+  & > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  span {
+    display: block;
+  }
+
+  a:hover {
+    color: var(--vue-green);
+  }
 }
 
 .one-example:not(:first-child) {

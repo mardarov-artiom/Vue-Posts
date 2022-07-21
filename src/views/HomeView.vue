@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Vue 3 application</h1>
+    <h1>Vue 3 Application</h1>
     <h2>Using composition api and composable functions</h2>
     <h3>this application commonly is made for fetching posts from fake API.</h3>
     <h3>posts can be fetched once page is loaded, and also fetching on scroll ( infinite )</h3>
