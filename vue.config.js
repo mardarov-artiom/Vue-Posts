@@ -4,5 +4,5 @@ module.exports = defineConfig({
   transpileDependencies: true,
   outputDir: 'build',
   assetsDir: 'static/',
-  publicPath: '/',
+  publicPath: '/Vue-Posts/',
 });
