@@ -2,9 +2,8 @@
 
 # Readme WIP
 
-## Project is available on Github Pages
+## Project demo is available on [Netlify](https://vue3-posts.netlify.app/#/)
 
-### https://mardarov-artiom.github.io/Vue-Posts/
 
 ## Project setup
 
